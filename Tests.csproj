@@ -14,6 +14,6 @@
     <PackageReference Include="FluentAssertions.Json" Version="4.19.0"/>
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\Formatik\Formatik.csproj" />
+    <ProjectReference Include="..\formatik-lib\Formatik.csproj" />
   </ItemGroup>
 </Project>
