@@ -1,0 +1,1192 @@
+[
+    {
+        "_id": "58e4a804dde973cb0034db4d",
+        "redirectToken": 234095318,
+        "configuration": {
+            "accountId": 1624
+        },
+        "configId": "58c049f8358a887654d056d3",
+        "instanceId": "5623ba85-fe2d-4eac-a0ec-18f0253c502b",
+        "utid": null,
+        "product": {
+            "productMatchUrl": "http://www.homedepot.com/p/Dremel-Multi-Max-Oscillating-Tool-Kit-MM45-04/206360263",
+            "sellerId": 7027,
+            "sellerProductId": "206360263",
+            "sellerPartNumber": "1000007810",
+            "productMatchId": 68468860
+        },
+        "seller": {
+            "_id": 7027,
+            "name": "Home Depot ",
+            "countryCode": "US",
+            "url": "www.homedepot.com",
+            "affiliateName": "Commission Junction"
+        },
+        "requestUrl": null,
+        "referrerUrl": null,
+        "redirectUrl": "http://www.anrdoezrs.net/links/1796839/type/dlg/sid/234095318/http://www.homedepot.com/p/Dremel-Multi-Max-Oscillating-Tool-Kit-MM45-04/206360263",
+        "redirectProductId": 9590364,
+        "userAgent": null,
+        "userAddress": "10.23.1.249",
+        "timestamp": "2017-04-05T00:00:00.000Z",
+        "_date": "2017-04-05T00:00:00.000Z",
+        "_index": "2017-04-05T08:16:04.442Z",
+        "_submit": "2017-04-05T08:20:20.081Z"
+    },
+    {
+        "_id": "58e433872f55e96fb7b83d66",
+        "redirectToken": null,
+        "configuration": {
+            "_id": "577d4edcdd486fc7569f7231",
+            "accountId": 1770,
+            "name": "Sony Electronics (Product)",
+            "type": "Product",
+            "amazonTags": {
+                "CA": "price0309_ca-20",
+                "US": "price144970f-20"
+            },
+            "countries": [
+                "CA",
+                "US"
+            ],
+            "_date": "2017-03-17T17:32:22.236Z",
+            "_createdDate": "2016-07-06T18:33:00.766Z",
+            "_createdBy": 591,
+            "_modifiedBy": 576,
+            "description": "",
+            "online": true,
+            "local": true,
+            "advanced": "{\"loadButtonCss\":false,\"loadLocalStock\":true,\"loadScript\":true,\"loadResources\":true,\"map\":{\"wheelZoomEnabled\":false},\"updateTimerSeconds\":[0,5,15,30]}",
+            "config": {
+                "loadButtonCss": false,
+                "loadLocalStock": true,
+                "loadScript": true,
+                "loadResources": true,
+                "map": {
+                    "wheelZoomEnabled": false
+                },
+                "updateTimerSeconds": [
+                    0,
+                    5,
+                    15,
+                    30
+                ],
+                "widgetType": "embedded",
+                "mapKey": "",
+                "googleGeocodeApiKey": "",
+                "loadBrowserLocation": false,
+                "loadIpLocation": true,
+                "loadMarketplaceSellers": false,
+                "requireSellers": "either",
+                "href": "",
+                "rules": [
+                    {
+                        "actions": {
+                            "local": [
+                                "includeSellers:[$LocalSellerList{ExplicitSellers}]",
+                                "includeDistance:155m",
+                                "sort:distance",
+                                "limitSameSellers:3",
+                                "limit:20"
+                            ],
+                            "online": [
+                                "includeSellers:[2,187,228,373,463,525,5507,36755,1082518]",
+                                "prioritizeSellers:[228,2,187,373,525,36755,1082518,5507,463]",
+                                "excludeStockStatus:[outOfStock,discontinued,notAvailableDirect]"
+                            ]
+                        },
+                        "match": {
+                            "sku": [],
+                            "tag": [
+                                "DI-US"
+                            ],
+                            "countryCode": [
+                                "US"
+                            ]
+                        },
+                        "meta": {
+                            "_modifiedBy": 591,
+                            "_createdBy": 591,
+                            "_createdDate": "2016-07-06T18:33:00.778Z",
+                            "_date": "2016-07-06T18:33:00.778Z",
+                            "primary": false,
+                            "locked": false,
+                            "visible": true,
+                            "active": true,
+                            "description": "",
+                            "name": "DI-US"
+                        }
+                    },
+                    {
+                        "actions": {
+                            "local": [
+                                "includeSellers:[$LocalSellerList{ExplicitSellers}]",
+                                "includeDistance:155m",
+                                "sort:distance",
+                                "limitSameSellers:3",
+                                "limit:20"
+                            ],
+                            "online": [
+                                "includeSellers:[2,11,187,235,463,36760,166325,209583,245113,336703,686524,5030454,5030463,5030580,5042144,5042147,5042150,5114569]",
+                                "prioritizeSellers:[187,2,235,336703,463,11,686524,245113,36760]",
+                                "excludeStockStatus:[outOfStock,discontinued,notAvailableDirect]"
+                            ]
+                        },
+                        "match": {
+                            "sku": [],
+                            "tag": [
+                                "HES"
+                            ],
+                            "countryCode": [
+                                "US"
+                            ]
+                        },
+                        "meta": {
+                            "_modifiedBy": 591,
+                            "_createdBy": 591,
+                            "_createdDate": "2016-07-06T18:33:00.778Z",
+                            "_date": "2016-07-06T18:33:00.778Z",
+                            "primary": false,
+                            "locked": false,
+                            "visible": true,
+                            "active": true,
+                            "description": "",
+                            "name": "HES-US"
+                        }
+                    },
+                    {
+                        "actions": {
+                            "local": [
+                                "includeSellers:[$LocalSellerList{ExplicitSellers}]",
+                                "includeDistance:155m",
+                                "sort:distance",
+                                "limitSameSellers:3",
+                                "limit:20"
+                            ],
+                            "online": [
+                                "includeSellers:[2,11,187,228,235,398,463,36760,166325,245113,336703,686524,5114569]",
+                                "prioritizeSellers:[187,2,235,336703,36760,11,245113,228,463,686524,5114569,166325,398]",
+                                "excludeStockStatus:[outOfStock,discontinued,notAvailableDirect]"
+                            ]
+                        },
+                        "match": {
+                            "sku": [],
+                            "tag": [
+                                "HA-US"
+                            ],
+                            "countryCode": [
+                                "US"
+                            ]
+                        },
+                        "meta": {
+                            "_modifiedBy": 581,
+                            "_createdBy": 581,
+                            "_createdDate": 1479439997598.0,
+                            "_date": 1479439997598.0,
+                            "primary": false,
+                            "locked": false,
+                            "visible": true,
+                            "active": true,
+                            "description": "",
+                            "name": "HA-US"
+                        }
+                    },
+                    {
+                        "actions": {
+                            "local": [
+                                "includeSellers:[$LocalSellerList{ExplicitSellers}]",
+                                "includeDistance:155m",
+                                "sort:distance",
+                                "limitSameSellers:3",
+                                "limit:20"
+                            ],
+                            "online": [
+                                "includeSellers:[2,11,187,228,235,398,463,36760,166325,245113,336703,686524,5114569]",
+                                "prioritizeSellers:[187,2,235,336703,36760,11,245113,228,463,686524,5114569,166325,398]",
+                                "excludeStockStatus:[outOfStock,discontinued,notAvailableDirect]"
+                            ]
+                        },
+                        "match": {
+                            "sku": [],
+                            "tag": [
+                                "HV-US"
+                            ],
+                            "countryCode": [
+                                "US"
+                            ]
+                        },
+                        "meta": {
+                            "_modifiedBy": 581,
+                            "_createdBy": 581,
+                            "_createdDate": 1479443179026.0,
+                            "_date": 1479443179026.0,
+                            "primary": false,
+                            "locked": false,
+                            "visible": true,
+                            "active": true,
+                            "description": "",
+                            "name": "HV-US"
+                        }
+                    },
+                    {
+                        "actions": {
+                            "local": [
+                                "includeSellers:[$LocalSellerList{ExplicitSellers}]",
+                                "includeDistance:155m",
+                                "sort:distance",
+                                "limitSameSellers:3",
+                                "limit:20"
+                            ],
+                            "online": [
+                                "includeSellers:[2,11,187,228,235,373,463,525,5507,36755,36760,166325,245113,336703,686524,1082518,5114569]",
+                                "prioritizeSellers:[235,373,2,228,187,336703,463,11,5507,686524,36755,1082518,245113,36760,525,5114569,166325]",
+                                "excludeStockStatus:[discontinued,outOfStock,notAvailableDirect]"
+                            ]
+                        },
+                        "match": {
+                            "sku": [],
+                            "tag": [
+                                "Mobile AV-US"
+                            ],
+                            "countryCode": [
+                                "US"
+                            ]
+                        },
+                        "meta": {
+                            "_modifiedBy": 581,
+                            "_createdBy": 581,
+                            "_createdDate": 1479443448507.0,
+                            "_date": 1479443448507.0,
+                            "primary": false,
+                            "locked": false,
+                            "visible": true,
+                            "active": true,
+                            "description": "",
+                            "name": "Mobile AV-US"
+                        }
+                    },
+                    {
+                        "actions": {
+                            "local": [
+                                "includeSellers:[$LocalSellerList{ExplicitSellers}]",
+                                "includeDistance:155m",
+                                "sort:distance",
+                                "limitSameSellers:3",
+                                "limit:20"
+                            ],
+                            "online": [
+                                "includeSellers:[2,11,167,187,189,228,235,463,841,36760,166325,245113,336703]",
+                                "prioritizeSellers:[187,2,189,167,235,336703,36760,11,245113,841,228,463]",
+                                "excludeStockStatus:[outOfStock,discontinued,notAvailableDirect]"
+                            ]
+                        },
+                        "match": {
+                            "sku": [],
+                            "tag": [
+                                "PA-US"
+                            ],
+                            "countryCode": [
+                                "US"
+                            ]
+                        },
+                        "meta": {
+                            "_modifiedBy": 581,
+                            "_createdBy": 581,
+                            "_createdDate": 1479443646817.0,
+                            "_date": 1479443646817.0,
+                            "primary": false,
+                            "locked": false,
+                            "visible": true,
+                            "active": true,
+                            "description": "",
+                            "name": "PA-US"
+                        }
+                    },
+                    {
+                        "actions": {
+                            "local": [
+                                "includeSellers:[$LocalSellerList{ExplicitSellers}]",
+                                "includeDistance:155m",
+                                "sort:distance",
+                                "limitSameSellers:3",
+                                "limit:20"
+                            ],
+                            "online": [
+                                "includeSellers:[2,11,187,228,235,398,463,841,36760,166325,245113,336703,686524,5114569]",
+                                "prioritizeSellers:[187,2,235,336703,36760,11,245113,841,228,463,686524,5114569,166325,398]",
+                                "excludeStockStatus:[discontinued,unknown,notAvailableDirect,outOfStock]"
+                            ]
+                        },
+                        "match": {
+                            "sku": [],
+                            "tag": [
+                                "TV-US"
+                            ],
+                            "countryCode": [
+                                "US"
+                            ]
+                        },
+                        "meta": {
+                            "_modifiedBy": 581,
+                            "_createdBy": 581,
+                            "_createdDate": 1479443826911.0,
+                            "_date": 1479443826911.0,
+                            "primary": false,
+                            "locked": false,
+                            "visible": true,
+                            "active": true,
+                            "description": "",
+                            "name": "TV-US"
+                        }
+                    },
+                    {
+                        "actions": {
+                            "local": [
+                                "includeSellers:[$LocalSellerList{ExplicitSellers}]",
+                                "includeDistance:155m",
+                                "sort:distance",
+                                "limitSameSellers:3",
+                                "limit:20"
+                            ],
+                            "online": [
+                                "includeSellers:[2,11,187,228,235,398,463,841,36760,166325,245113,336703,686524,5114569]",
+                                "prioritizeSellers:[187,2,235,336703,36760,11,245113,841,228,463,686524,5114569,166325,398]",
+                                "excludeStockStatus:[outOfStock,discontinued,notAvailableDirect]"
+                            ]
+                        },
+                        "match": {
+                            "sku": [],
+                            "tag": [
+                                "FPJ-US"
+                            ],
+                            "countryCode": [
+                                "US"
+                            ]
+                        },
+                        "meta": {
+                            "_modifiedBy": 591,
+                            "_createdBy": 591,
+                            "_createdDate": 1479824994503.0,
+                            "_date": 1479824994503.0,
+                            "primary": false,
+                            "locked": false,
+                            "visible": true,
+                            "active": true,
+                            "description": "",
+                            "name": "FPJ-US"
+                        }
+                    },
+                    {
+                        "actions": {
+                            "local": [
+                                "includeSellers:[$LocalSellerList{ExplicitSellers}]",
+                                "includeDistance:155m",
+                                "sort:distance",
+                                "limitSameSellers:3",
+                                "limit:20"
+                            ],
+                            "online": [
+                                "includeSellers:[2,11,187,235,463,36760,166325,209583,245113,336703,686524,5030454,5030463,5030580,5042144,5042147,5042150,5114569]",
+                                "prioritizeSellers:[187,2,235,336703,463,11,686524,245113,36760]",
+                                "excludeStockStatus:[outOfStock,discontinued,notAvailableDirect]"
+                            ]
+                        },
+                        "match": {
+                            "sku": [],
+                            "tag": [
+                                "US"
+                            ],
+                            "countryCode": [
+                                "US"
+                            ]
+                        },
+                        "meta": {
+                            "_modifiedBy": 591,
+                            "_createdBy": 591,
+                            "_createdDate": "2016-07-06T18:33:00.778Z",
+                            "_date": "2016-07-06T18:33:00.778Z",
+                            "primary": true,
+                            "locked": true,
+                            "visible": true,
+                            "active": true,
+                            "description": "",
+                            "name": "United States"
+                        }
+                    },
+                    {
+                        "actions": {
+                            "local": [
+                                "includeSellers:[$LocalSellerList{ExplicitSellers}]",
+                                "includeDistance:155m",
+                                "sort:distance",
+                                "limitSameSellers:3",
+                                "limit:20"
+                            ],
+                            "online": [
+                                "excludeStockStatus:[outOfStock,discontinued,notAvailableDirect]"
+                            ]
+                        },
+                        "match": {
+                            "sku": [],
+                            "tag": [
+                                "DI-CA"
+                            ],
+                            "countryCode": [
+                                "CA"
+                            ]
+                        },
+                        "meta": {
+                            "_modifiedBy": 188,
+                            "_createdBy": 188,
+                            "_createdDate": 1476838946378.0,
+                            "_date": 1476838946378.0,
+                            "primary": false,
+                            "locked": false,
+                            "visible": true,
+                            "active": true,
+                            "description": "CA DI",
+                            "name": "DI-CA"
+                        }
+                    },
+                    {
+                        "actions": {
+                            "local": [],
+                            "online": []
+                        },
+                        "match": {
+                            "sku": [],
+                            "tag": [],
+                            "countryCode": [
+                                "US"
+                            ]
+                        },
+                        "meta": {
+                            "_modifiedBy": 581,
+                            "_createdBy": 581,
+                            "_createdDate": 1479517288992.0,
+                            "_date": 1479517288992.0,
+                            "primary": false,
+                            "locked": false,
+                            "visible": false,
+                            "active": false,
+                            "description": "",
+                            "name": "Unnamed Rule"
+                        }
+                    },
+                    {
+                        "actions": {
+                            "local": [],
+                            "online": []
+                        },
+                        "match": {
+                            "sku": [],
+                            "tag": [],
+                            "countryCode": [
+                                "US"
+                            ]
+                        },
+                        "meta": {
+                            "_modifiedBy": 591,
+                            "_createdBy": 591,
+                            "_createdDate": 1479839210710.0,
+                            "_date": 1479839210710.0,
+                            "primary": false,
+                            "locked": false,
+                            "visible": false,
+                            "active": false,
+                            "description": "",
+                            "name": "Unnamed Rule"
+                        }
+                    },
+                    {
+                        "actions": {
+                            "local": [
+                                "includeSellers:[$LocalSellerList{ExplicitSellers}]",
+                                "includeDistance:155m",
+                                "sort:distance",
+                                "limitSameSellers:3",
+                                "limit:20"
+                            ],
+                            "online": [
+                                "excludeStockStatus:[outOfStock,discontinued,notAvailableDirect]"
+                            ]
+                        },
+                        "match": {
+                            "sku": [],
+                            "tag": [
+                                "FPJ-CA"
+                            ],
+                            "countryCode": [
+                                "CA"
+                            ]
+                        },
+                        "meta": {
+                            "_modifiedBy": 591,
+                            "_createdBy": 591,
+                            "_createdDate": 1479839217817.0,
+                            "_date": 1479839217817.0,
+                            "primary": false,
+                            "locked": false,
+                            "visible": true,
+                            "active": true,
+                            "description": "",
+                            "name": "FPJ-CA"
+                        }
+                    },
+                    {
+                        "actions": {
+                            "local": [
+                                "includeSellers:[$LocalSellerList{ExplicitSellers}]",
+                                "includeDistance:155m",
+                                "sort:distance",
+                                "limitSameSellers:3",
+                                "limit:20"
+                            ],
+                            "online": [
+                                "excludeStockStatus:[outOfStock,discontinued,notAvailableDirect]"
+                            ]
+                        },
+                        "match": {
+                            "sku": [],
+                            "tag": [
+                                "HA-CA"
+                            ],
+                            "countryCode": [
+                                "CA"
+                            ]
+                        },
+                        "meta": {
+                            "_modifiedBy": 591,
+                            "_createdBy": 591,
+                            "_createdDate": 1479839243454.0,
+                            "_date": 1479839243454.0,
+                            "primary": false,
+                            "locked": false,
+                            "visible": true,
+                            "active": true,
+                            "description": "",
+                            "name": "HA-CA"
+                        }
+                    },
+                    {
+                        "actions": {
+                            "local": [
+                                "includeSellers:[$LocalSellerList{ExplicitSellers}]",
+                                "includeDistance:155m",
+                                "sort:distance",
+                                "limitSameSellers:3",
+                                "limit:20"
+                            ],
+                            "online": [
+                                "excludeStockStatus:[outOfStock,discontinued,notAvailableDirect]"
+                            ]
+                        },
+                        "match": {
+                            "sku": [],
+                            "tag": [
+                                "HV-CA"
+                            ],
+                            "countryCode": [
+                                "CA"
+                            ]
+                        },
+                        "meta": {
+                            "_modifiedBy": 591,
+                            "_createdBy": 591,
+                            "_createdDate": 1479839247777.0,
+                            "_date": 1479839247777.0,
+                            "primary": false,
+                            "locked": false,
+                            "visible": true,
+                            "active": true,
+                            "description": "",
+                            "name": "HV-CA"
+                        }
+                    },
+                    {
+                        "actions": {
+                            "local": [
+                                "includeSellers:[$LocalSellerList{ExplicitSellers}]",
+                                "includeDistance:155m",
+                                "sort:distance",
+                                "limitSameSellers:3",
+                                "limit:20"
+                            ],
+                            "online": [
+                                "excludeStockStatus:[outOfStock,discontinued,notAvailableDirect]"
+                            ]
+                        },
+                        "match": {
+                            "sku": [],
+                            "tag": [
+                                "Mobile AV-CA"
+                            ],
+                            "countryCode": [
+                                "CA"
+                            ]
+                        },
+                        "meta": {
+                            "_modifiedBy": 591,
+                            "_createdBy": 591,
+                            "_createdDate": 1479839258473.0,
+                            "_date": 1479839258473.0,
+                            "primary": false,
+                            "locked": false,
+                            "visible": true,
+                            "active": true,
+                            "description": "",
+                            "name": "Mobile AV-CA"
+                        }
+                    },
+                    {
+                        "actions": {
+                            "local": [
+                                "includeSellers:[$LocalSellerList{ExplicitSellers}]",
+                                "includeDistance:155m",
+                                "sort:distance",
+                                "limitSameSellers:3",
+                                "limit:20"
+                            ],
+                            "online": [
+                                "excludeStockStatus:[outOfStock,discontinued,notAvailableDirect]"
+                            ]
+                        },
+                        "match": {
+                            "sku": [],
+                            "tag": [
+                                "PA-CA"
+                            ],
+                            "countryCode": [
+                                "CA"
+                            ]
+                        },
+                        "meta": {
+                            "_modifiedBy": 591,
+                            "_createdBy": 591,
+                            "_createdDate": 1479839261456.0,
+                            "_date": 1479839261456.0,
+                            "primary": false,
+                            "locked": false,
+                            "visible": true,
+                            "active": true,
+                            "description": "",
+                            "name": "PA-CA"
+                        }
+                    },
+                    {
+                        "actions": {
+                            "local": [
+                                "includeSellers:[$LocalSellerList{ExplicitSellers}]",
+                                "includeDistance:155m",
+                                "sort:distance",
+                                "limitSameSellers:3",
+                                "limit:20"
+                            ],
+                            "online": [
+                                "excludeStockStatus:[outOfStock,discontinued,notAvailableDirect]"
+                            ]
+                        },
+                        "match": {
+                            "sku": [],
+                            "tag": [
+                                "TV-CA"
+                            ],
+                            "countryCode": [
+                                "CA"
+                            ]
+                        },
+                        "meta": {
+                            "_modifiedBy": 591,
+                            "_createdBy": 591,
+                            "_createdDate": 1479839434794.0,
+                            "_date": 1479839434794.0,
+                            "primary": false,
+                            "locked": false,
+                            "visible": true,
+                            "active": true,
+                            "description": "",
+                            "name": "TV-CA"
+                        }
+                    },
+                    {
+                        "actions": {
+                            "local": [
+                                "includeSellers:[$LocalSellerList{ExplicitSellers}]",
+                                "includeDistance:155m",
+                                "sort:distance",
+                                "limitSameSellers:3",
+                                "limit:20"
+                            ],
+                            "online": [
+                                "excludeStockStatus:[outOfStock,discontinued,notAvailableDirect]"
+                            ]
+                        },
+                        "match": {
+                            "sku": [],
+                            "tag": [
+                                "CA"
+                            ],
+                            "countryCode": [
+                                "CA"
+                            ]
+                        },
+                        "meta": {
+                            "_modifiedBy": 188,
+                            "_createdBy": 188,
+                            "_createdDate": 1476838919532.0,
+                            "_date": 1476838919532.0,
+                            "primary": true,
+                            "locked": true,
+                            "visible": true,
+                            "active": true,
+                            "description": "",
+                            "name": "Canada"
+                        }
+                    },
+                    {
+                        "actions": {
+                            "local": [
+                                "includeSellers:[$LocalSellerList{ExplicitSellers}]",
+                                "includeDistance:155m",
+                                "sort:distance",
+                                "limitSameSellers:3",
+                                "limit:20"
+                            ],
+                            "online": [
+                                "includeSellers:[2,11,187,228,235,373,463,525,5507,36755,36760,166325,245113,336703,686524,1082518,5114569]",
+                                "prioritizeSellers:[235,373,2,228,187,336703,463,11,5507,686524,36755,1082518,245113,36760,525,5114569,166325]",
+                                "excludeStockStatus:[outOfStock,discontinued,notAvailableDirect]"
+                            ]
+                        },
+                        "match": {
+                            "sku": [],
+                            "tag": [
+                                "Other-US"
+                            ],
+                            "countryCode": [
+                                "US"
+                            ]
+                        },
+                        "meta": {
+                            "_modifiedBy": 314,
+                            "_createdBy": 314,
+                            "_createdDate": 1485453728315.0,
+                            "_date": 1485453728315.0,
+                            "primary": false,
+                            "locked": false,
+                            "visible": true,
+                            "active": true,
+                            "description": "",
+                            "name": "Other-US"
+                        }
+                    },
+                    {
+                        "actions": {
+                            "local": [
+                                "includeSellers:[$LocalSellerList{ExplicitSellers}]",
+                                "includeDistance:155m",
+                                "sort:distance",
+                                "limitSameSellers:3",
+                                "limit:20"
+                            ],
+                            "online": [
+                                "excludeStockStatus:[outOfStock,discontinued,notAvailableDirect]"
+                            ]
+                        },
+                        "match": {
+                            "sku": [],
+                            "tag": [
+                                "Other-CA"
+                            ],
+                            "countryCode": [
+                                "CA"
+                            ]
+                        },
+                        "meta": {
+                            "_modifiedBy": 314,
+                            "_createdBy": 314,
+                            "_createdDate": 1486147613570.0,
+                            "_date": 1486147613570.0,
+                            "primary": false,
+                            "locked": false,
+                            "visible": true,
+                            "active": true,
+                            "description": "",
+                            "name": "Other-CA"
+                        }
+                    },
+                    {
+                        "actions": {
+                            "local": [
+                                "includeSellers:[$LocalSellerList{ExplicitSellers}]",
+                                "includeDistance:155m",
+                                "sort:distance",
+                                "limitSameSellers:3",
+                                "limit:20"
+                            ],
+                            "online": [
+                                "excludeStockStatus:[outOfStock,discontinued,notAvailableDirect]"
+                            ]
+                        },
+                        "match": {
+                            "sku": [],
+                            "tag": [
+                                "CA HES"
+                            ],
+                            "countryCode": [
+                                "CA"
+                            ]
+                        },
+                        "meta": {
+                            "_modifiedBy": 188,
+                            "_createdBy": 188,
+                            "_createdDate": 1476839019087.0,
+                            "_date": 1476839019087.0,
+                            "primary": false,
+                            "locked": false,
+                            "visible": true,
+                            "active": true,
+                            "description": "CA HES",
+                            "name": "Canada HES"
+                        }
+                    }
+                ]
+            },
+            "redirectSecurityMode": "whitelisted",
+            "brand": "Sony Electronics",
+            "_submit": "2017-03-17T17:30:01.347Z",
+            "_build": "2017-03-17T17:32:49.635Z",
+            "_index": "2017-03-17T17:33:01.736Z",
+            "redirectDomains": [
+                {
+                    "domain": "www.sony.com",
+                    "active": true,
+                    "dateEntered": "2016-07-06T18:35:36.077Z"
+                },
+                {
+                    "domain": "sony.eu",
+                    "active": true,
+                    "dateEntered": "2016-08-19T20:45:47.242Z"
+                },
+                {
+                    "domain": "uat-pdp.sony.com",
+                    "active": true,
+                    "dateEntered": "2016-09-23T18:39:13.117Z"
+                }
+            ]
+        },
+        "configId": "577d4edcdd486fc7569f7231",
+        "instanceId": "e6198f14-2658-45f4-95f1-6260a7e70076",
+        "product": {
+            "stockStatus": 1,
+            "affiliateRedirectUrl": null,
+            "productMatchUrl": "https://www.samys.com/p/US-Only-Shipping/SEL85F18/FE-85mm-f/1.8-Lens/192127.html",
+            "sellerId": 525,
+            "sellerProductId": "192127",
+            "sellerPartNumber": "SEL85F18",
+            "productMatchId": 84593885,
+            "_id": 10212217
+        },
+        "seller": {
+            "_id": 525,
+            "_date": "2015-10-01T15:03:00.000Z",
+            "name": "Samy's Camera",
+            "countryCode": "US",
+            "url": "www.samys.com",
+            "parentSellerId": null,
+            "accountId": null,
+            "affiliateToken": null,
+            "affiliateName": null,
+            "affiliateCurrencyCode": "USD",
+            "affiliateCurrencySymbol": "$",
+            "addToCartFormat": null,
+            "addToCartSecondStageRedirect": null,
+            "affiliateProductRedirectUrl": null,
+            "affiliateGeneralRedirectUrl": null,
+            "logo": true,
+            "onlineOnly": false,
+            "active": true,
+            "purchaseTrackingEnabled": false,
+            "ubiqEnabled": false,
+            "stockUpdatable": false
+        },
+        "requestUrl": "/redirect/?cid=577d4edcdd486fc7569f7231&iid=e6198f14-2658-45f4-95f1-6260a7e70076&v=1.5.0&pmid=84593885&widgetType=widget&t=15048&n=2&_=1491350406868",
+        "referrerUrl": "http://www.sony.com/electronics/camera-lenses/sel85f18/buy",
+        "redirectUrl": "https://www.samys.com/p/US-Only-Shipping/SEL85F18/FE-85mm-f/1.8-Lens/192127.html",
+        "serverName": null,
+        "userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_11_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/57.0.2987.133 Safari/537.36",
+        "userAddress": "::ffff:177.243.164.64",
+        "_date": "2017-04-05T00:00:07.133Z",
+        "_d": {
+            "y": 2017,
+            "m": 2017.04,
+            "d": 2017.0405,
+            "h": 2017.0405
+        },
+        "data": {
+            "n": "2",
+            "t": "15048",
+            "widgetType": "widget",
+            "v": "1.5.0"
+        },
+        "timestamp": "2017-04-05T00:00:07.133Z",
+        "__v": 0,
+        "_copy": {
+            "source": "10.21.1.125",
+            "date": "2017-04-05T00:00:45.498Z"
+        },
+        "_index": "2017-04-05T00:01:01.781Z",
+        "_submit": "2017-04-05T00:05:12.952Z"
+    },
+    {
+        "_id": "58e433877908d0543564a5ad",
+        "redirectToken": "wtbs_58e433877908d0543564a5ad",
+        "configuration": {
+            "_id": "57d9f03d015405367a598032",
+            "accountId": 1781,
+            "name": "NVIDIA (Product)",
+            "brand": "NVIDIA",
+            "type": "Product",
+            "amazonTags": {
+                "US": "price1180107-20"
+            },
+            "countries": [
+                "US"
+            ],
+            "_date": "2017-03-10T23:59:17.540Z",
+            "_createdDate": "2016-09-15T00:50:05.358Z",
+            "_createdBy": 591,
+            "_modifiedBy": 314,
+            "description": "",
+            "online": true,
+            "local": true,
+            "advanced": "{\"loadButtonCss\":true,\"loadLocalStock\":true,\"loadResources\":true,\"updateTimerSeconds\":[0,5,15,30],\"res\":{\"en\":{\"wtbButtonLabel\":\"BUY NOW\",\"wtbButtonDisabledNoSellers\":\"No Sellers Found\",\"wtbButtonDisabledNoSku\":\"No Sellers Found\",\"distanceUnits\":{\"miles\":\"mi\",\"kilometers\":\"km\"},\"open24Hours\":\"Open 24 Hours\",\"daily\":\"Daily\",\"closed\":\"Closed\",\"todaysHours\":\"Today's hours\",\"openTodayText\":\"Open today\",\"storeHoursText\":\"Store Hours\",\"callForHours\":\"Call for Hours\",\"timeFormat\":\"h:mma\",\"storeHours\":{\"hourRangeSeparator\":\" - \"},\"stockStatus\":{\"inStock\":\"In Stock\",\"outOfStock\":\"Out of Stock\",\"preorder\":\"Preorder\",\"backorder\":\"Backorder\",\"callStore\":\"See Website\",\"freeShipping\":\"See Website\",\"shipToHome\":\"See Website\",\"shipToStore\":\"See Website\",\"notAvailableDirect\":\"See Website\",\"unknown\":\"See Website\"},\"country\":{\"US\":\"United States\"}}}}",
+            "config": {
+                "loadButtonCss": true,
+                "loadLocalStock": true,
+                "loadResources": true,
+                "updateTimerSeconds": [
+                    0,
+                    5,
+                    15,
+                    30
+                ],
+                "res": {
+                    "en": {
+                        "wtbButtonLabel": "BUY NOW",
+                        "wtbButtonDisabledNoSellers": "No Sellers Found",
+                        "wtbButtonDisabledNoSku": "No Sellers Found",
+                        "distanceUnits": {
+                            "miles": "mi",
+                            "kilometers": "km"
+                        },
+                        "open24Hours": "Open 24 Hours",
+                        "daily": "Daily",
+                        "closed": "Closed",
+                        "todaysHours": "Today's hours",
+                        "openTodayText": "Open today",
+                        "storeHoursText": "Store Hours",
+                        "callForHours": "Call for Hours",
+                        "timeFormat": "h:mma",
+                        "storeHours": {
+                            "hourRangeSeparator": " - "
+                        },
+                        "stockStatus": {
+                            "inStock": "In Stock",
+                            "outOfStock": "Out of Stock",
+                            "preorder": "Preorder",
+                            "backorder": "Backorder",
+                            "callStore": "See Website",
+                            "freeShipping": "See Website",
+                            "shipToHome": "See Website",
+                            "shipToStore": "See Website",
+                            "notAvailableDirect": "See Website",
+                            "unknown": "See Website"
+                        },
+                        "country": {
+                            "US": "United States"
+                        }
+                    }
+                },
+                "widgetType": "lightbox",
+                "mapKey": "",
+                "googleGeocodeApiKey": "",
+                "loadBrowserLocation": false,
+                "loadIpLocation": true,
+                "loadMarketplaceSellers": false,
+                "requireSellers": "none",
+                "href": "",
+                "rules": [
+                    {
+                        "actions": {
+                            "local": [
+                                "includeSellers:[11,177,187,228,272]",
+                                "includeDistance:200k",
+                                "sort:distance",
+                                "limitSameSellers:3",
+                                "limit:20"
+                            ],
+                            "online": [
+                                "includeSellers:[2,11,177,187,228,248,272,5026235]",
+                                "sortByStockStatus:inStock",
+                                "excludeStockStatus:discontinued"
+                            ]
+                        },
+                        "match": {
+                            "sku": [],
+                            "tag": [],
+                            "countryCode": [
+                                "US"
+                            ]
+                        },
+                        "meta": {
+                            "_modifiedBy": 591,
+                            "_createdBy": 591,
+                            "_createdDate": 1473900606401.0,
+                            "_date": 1473900606401.0,
+                            "primary": true,
+                            "locked": true,
+                            "visible": true,
+                            "active": true,
+                            "description": "",
+                            "name": "United States"
+                        }
+                    }
+                ]
+            },
+            "redirectSecurityMode": "whitelisted",
+            "_submit": "2017-03-11T00:00:13.602Z",
+            "_build": "2017-03-11T00:03:39.429Z",
+            "_index": "2017-03-11T00:01:03.865Z",
+            "redirectDomains": [
+                {
+                    "domain": "nvidia.com",
+                    "active": true,
+                    "dateEntered": "2016-09-15T00:50:15.057Z"
+                },
+                {
+                    "domain": "geforce.com",
+                    "active": true,
+                    "dateEntered": "2016-09-15T00:50:20.810Z"
+                },
+                {
+                    "domain": "androidpit.com",
+                    "active": true,
+                    "dateEntered": "2017-03-10T22:18:49.162Z"
+                },
+                {
+                    "domain": "androidpolice.com",
+                    "active": true,
+                    "dateEntered": "2017-03-10T22:18:59.534Z"
+                },
+                {
+                    "domain": "androidheadlines.com",
+                    "active": true,
+                    "dateEntered": "2017-03-10T22:19:03.819Z"
+                },
+                {
+                    "domain": "androidrundown.com",
+                    "active": true,
+                    "dateEntered": "2017-03-10T22:19:09.999Z"
+                },
+                {
+                    "domain": "phandroid.com",
+                    "active": true,
+                    "dateEntered": "2017-03-10T22:19:14.708Z"
+                },
+                {
+                    "domain": "pocketgamer.co.uk",
+                    "active": true,
+                    "dateEntered": "2017-03-10T22:19:18.818Z"
+                },
+                {
+                    "domain": "pcgamesn.com",
+                    "active": true,
+                    "dateEntered": "2017-03-10T22:19:26.206Z"
+                },
+                {
+                    "domain": "pcgamer.com",
+                    "active": true,
+                    "dateEntered": "2017-03-10T22:19:32.172Z"
+                },
+                {
+                    "domain": "gamesradar.com",
+                    "active": true,
+                    "dateEntered": "2017-03-10T22:19:36.564Z"
+                },
+                {
+                    "domain": "techradar.com",
+                    "active": true,
+                    "dateEntered": "2017-03-10T22:19:41.767Z"
+                },
+                {
+                    "domain": "ign.com",
+                    "active": true,
+                    "dateEntered": "2017-03-10T22:19:46.428Z"
+                }
+            ]
+        },
+        "configId": "57d9f03d015405367a598032",
+        "instanceId": "09037e8d-1f00-4fdc-9aac-497c954c1988",
+        "product": {
+            "stockStatus": 9,
+            "affiliateRedirectUrl": null,
+            "productMatchUrl": "https://www.amazon.com/GL502VY-DS74-Gaming-Laptop-NVIDIA-GTX980M/dp/B01GHQOKO2/",
+            "sellerId": 2,
+            "sellerProductId": "B01GHQOKO2",
+            "sellerPartNumber": "B01GHQOKO2",
+            "productMatchId": 81339155,
+            "_id": 9984875
+        },
+        "seller": {
+            "_id": 2,
+            "_date": "2016-10-18T00:05:00.000Z",
+            "name": "Amazon.com",
+            "countryCode": "US",
+            "url": "www.amazon.com",
+            "parentSellerId": null,
+            "accountId": null,
+            "affiliateToken": "n/a",
+            "affiliateName": "Amazon.com",
+            "affiliateCurrencyCode": "USD",
+            "affiliateCurrencySymbol": "$",
+            "addToCartFormat": "http://www.amazon.com/gp/aws/cart/add.html?AssociateTag={amazonTag}&ascsubtag={redirectId}&{products:\"&\",\"ASIN.{index1}={sellerPartNumber}&Quantity.{index1}={quantity}\"}",
+            "addToCartSecondStageRedirect": null,
+            "affiliateProductRedirectUrl": null,
+            "affiliateGeneralRedirectUrl": null,
+            "logo": true,
+            "onlineOnly": true,
+            "purchaseTrackingEnabled": false,
+            "ubiqEnabled": false,
+            "stockUpdatable": false,
+            "active": true
+        },
+        "requestUrl": "/redirect/?cid=57d9f03d015405367a598032&iid=09037e8d-1f00-4fdc-9aac-497c954c1988&v=1.3.0&pmid=81339155&widgetType=widget&t=684270&n=0&_=1491350235112",
+        "referrerUrl": "http://www.geforce.com/hardware/notebook-gpus/geforce-gtx-980m/buy-laptop",
+        "redirectUrl": "http://www.amazon.com/dp/B01GHQOKO2?tag=price1180107-20&ascsubtag=wtbs_58e433877908d0543564a5ad",
+        "serverName": null,
+        "userAgent": "Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/56.0.2924.87 Safari/537.36",
+        "userAddress": "37.105.133.202",
+        "_date": "2017-04-05T00:00:07.756Z",
+        "_d": {
+            "y": 2017,
+            "m": 2017.04,
+            "d": 2017.0405,
+            "h": 2017.0405
+        },
+        "data": {
+            "n": "0",
+            "t": "684270",
+            "widgetType": "widget",
+            "v": "1.3.0"
+        },
+        "timestamp": "2017-04-05T00:00:07.756Z",
+        "__v": 0,
+        "_copy": {
+            "source": "10.23.1.30",
+            "date": "2017-04-05T00:00:46.967Z"
+        },
+        "_index": "2017-04-04T23:58:10.332Z",
+        "_submit": "2017-04-05T00:00:11.597Z"
+    }
+]

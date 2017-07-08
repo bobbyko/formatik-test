@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <TargetFramework>netcoreapp1.1</TargetFramework>
+    <RuntimeFrameworkVersion>1.1.2</RuntimeFrameworkVersion>
+    <RootNamespace>Octagon.Formatik.Tests</RootNamespace>
+    <AssemblyName>Octagon.Formatik.Tests</AssemblyName>
+  </PropertyGroup>
+  <ItemGroup>
+    <PackageReference Include="Microsoft.NET.Test.Sdk" Version="15.0.0"/>
+    <PackageReference Include="xunit" Version="2.2.0"/>
+    <PackageReference Include="xunit.runner.visualstudio" Version="2.2.0"/>
+    <PackageReference Include="FluentAssertions" Version="4.19.2"/>
+    <PackageReference Include="FluentAssertions.Json" Version="4.19.0"/>
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\Formatik\Formatik.csproj" />
+  </ItemGroup>
+</Project>
