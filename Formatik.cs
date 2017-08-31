@@ -587,14 +587,14 @@ namespace Octagon.Formatik.Tests
             formatik.Header.Should().BeEmpty("Header should be empty");
             formatik.Footer.Should().BeEmpty("Footer should be empty");
             formatik.Separators.Should().NotBeNullOrEmpty("there should be separator");
-            formatik.Separators.Count().Should().Be(2, "because output example is a table");
+            formatik.Separators.Count().Should().Be(1, "because output example is a list");
             formatik.Separators.First().Should().Be("\n", "separator is a new line");
             formatik.Tokens.Should().NotBeNull("there should be tokens");
             formatik.Tokens.Count().Should().Be(1, "there should be one token");
 
             var token = formatik.Tokens.ElementAt(0);
             token.InputSelector.Should().Be("price[1]/text()", "token is price[1]/text()");
-            token.OutputSelector.Should().Be("1", "output is a list of one token");
+            token.OutputSelector.Should().Be("0", "output is a list of one token");
             token.Prefix.Should().BeEmpty("Token's prefix should be empty");
             token.Suffix.Should().BeEmpty("Token's suffix should be empty");
 
@@ -620,10 +620,10 @@ namespace Octagon.Formatik.Tests
             formatik.Header.Should().BeEmpty("Header should be empty");
             formatik.Footer.Should().BeEmpty("Footer should be empty");
             formatik.Separators.Should().NotBeNullOrEmpty("there should be separator");
+            formatik.Separators.Count().Should().Be(1, "because output example is a list");
             formatik.Separators.First().Should().Be("\n", "separator is a new line");
-            formatik.Separators.Skip(1).First().Should().Be(",\"", "element is a \",\\\" comma");
             formatik.Tokens.Should().NotBeNull("there should be tokens");
-            formatik.Tokens.Count().Should().Be(2, "there should be one token");
+            formatik.Tokens.Count().Should().Be(1, "there should be one token");
 
             var token = formatik.Tokens.ElementAt(0);
             token.InputSelector.Should().Be("@id", "token is @id");
