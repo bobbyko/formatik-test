@@ -652,10 +652,12 @@ namespace Octagon.Formatik.Tests
             formatik.Should().NotBeNull();
             formatik.Header.Should().BeEmpty("Header should be empty");
             formatik.Footer.Should().BeEmpty("Footer should be empty");
+            formatik.Separators.Count().Should().Be(2, "because output example is a table");
             formatik.Separators.Should().NotBeNullOrEmpty("there should be separator");
             formatik.Separators.First().Should().Be("\n", "separator is a new line");
+            formatik.Separators.Skip(1).First().Should().Be(",", "separator is a comma");
             formatik.Tokens.Should().NotBeNull("there should be tokens");
-            formatik.Tokens.Count().Should().Be(2, "there should be one token");
+            formatik.Tokens.Count().Should().Be(2, "there should be two tokens");
 
             // ID
             var token = formatik.Tokens.ElementAt(0);
@@ -670,7 +672,83 @@ namespace Octagon.Formatik.Tests
             token.OutputSelector.Should().Be("1", "this is the second element of the output table");
             token.Prefix.Should().BeEmpty("Token's prefix should be empty");
             token.Suffix.Should().BeEmpty("Token's suffix should be empty");
-            
+
+
+            // validate processing
+            var processed = formatik.Process(input, Encoding.ASCII);
+            var expectedOutput = File.ReadAllText($"../../../TestData/{testDataFolder}/output.csv");
+
+            processed.Should().Be(expectedOutput.Replace("\r", ""), "processed output should be equal to expected output");
+        }
+
+        [Fact]
+        public void csv_csv_1()
+        {
+            var testDataFolder = "9.csv-csv.1";
+
+            var input = File.ReadAllText($"../../../TestData/{testDataFolder}/input.csv").Replace("\r", "");
+
+            var formatik = new Formatik(
+                input,
+                File.ReadAllText($"../../../TestData/{testDataFolder}/example.txt").Replace("\r", ""));
+
+            formatik.Should().NotBeNull();
+            formatik.Header.Should().BeEmpty("Header should be empty");
+            formatik.Footer.Should().BeEmpty("Footer should be empty");
+            formatik.Separators.Should().NotBeNullOrEmpty("there should be separator");
+            formatik.Separators.Count().Should().Be(1, "because output example is a list");
+            formatik.Separators.First().Should().Be("\n", "separator is a new line");
+            formatik.Tokens.Should().NotBeNull("there should be tokens");
+            formatik.Tokens.Count().Should().Be(1, "there should be one token");
+
+            // ID
+            var token = formatik.Tokens.ElementAt(0);
+            token.InputSelector.Should().Be("[0]", "token is the first field");
+            token.OutputSelector.Should().Be("0", "this is the first element of the output table");
+            token.Prefix.Should().BeEmpty("Token's prefix should be empty");
+            token.Suffix.Should().BeEmpty("Token's suffix should be empty");
+
+            // validate processing
+            var processed = formatik.Process(input, Encoding.ASCII);
+            var expectedOutput = File.ReadAllText($"../../../TestData/{testDataFolder}/output.txt");
+
+            processed.Should().Be(expectedOutput.Replace("\r", ""), "processed output should be equal to expected output");
+        }
+
+        [Fact]
+        public void csv_csv_2()
+        {
+            var testDataFolder = "9.csv-csv.2";
+
+            var input = File.ReadAllText($"../../../TestData/{testDataFolder}/input.csv").Replace("\r", "");
+
+            var formatik = new Formatik(
+                input,
+                File.ReadAllText($"../../../TestData/{testDataFolder}/example.txt").Replace("\r", ""));
+
+            formatik.Should().NotBeNull();
+            formatik.Header.Should().BeEmpty("Header should be empty");
+            formatik.Footer.Should().BeEmpty("Footer should be empty");
+            formatik.Separators.Should().NotBeNullOrEmpty("there should be separator");
+            formatik.Separators.Count().Should().Be(2, "because output example is a list");
+            formatik.Separators.First().Should().Be("\n", "separator is a new line");
+            formatik.Separators.Skip(1).First().Should().Be(",", "separator is a new line");
+            formatik.Tokens.Should().NotBeNull("there should be tokens");
+            formatik.Tokens.Count().Should().Be(2, "there should be two tokens");
+
+            // accountId
+            var token = formatik.Tokens.ElementAt(0);
+            token.InputSelector.Should().Be("[2]", "token is the first field");
+            token.OutputSelector.Should().Be("0", "this is the first element of the output table");
+            token.Prefix.Should().BeEmpty("Token's prefix should be empty");
+            token.Suffix.Should().BeEmpty("Token's suffix should be empty");
+
+            // country
+            token = formatik.Tokens.ElementAt(1);
+            token.InputSelector.Should().Be("[3]", "token is the first field");
+            token.OutputSelector.Should().Be("1", "this is the first element of the output table");
+            token.Prefix.Should().BeEmpty("Token's prefix should be empty");
+            token.Suffix.Should().BeEmpty("Token's suffix should be empty");
 
             // validate processing
             var processed = formatik.Process(input, Encoding.ASCII);

@@ -7,13 +7,13 @@
     <AssemblyName>Octagon.Formatik.Tests</AssemblyName>
   </PropertyGroup>
   <ItemGroup>
-    <PackageReference Include="Microsoft.NET.Test.Sdk" Version="15.0.0"/>
+    <PackageReference Include="Microsoft.NET.Test.Sdk" Version="15.3.0"/>
     <PackageReference Include="xunit" Version="2.2.0"/>
     <PackageReference Include="xunit.runner.visualstudio" Version="2.2.0"/>
-    <PackageReference Include="FluentAssertions" Version="4.19.2"/>
-    <PackageReference Include="FluentAssertions.Json" Version="4.19.0"/>
+    <PackageReference Include="FluentAssertions" Version="4.19.4"/>
+    <PackageReference Include="FluentAssertions.Json" Version="4.20.0"/>
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\formatik-lib\Formatik.csproj" />
+    <ProjectReference Include="..\formatik-lib\Formatik.csproj"/>
   </ItemGroup>
 </Project>
