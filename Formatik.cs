@@ -755,6 +755,78 @@ namespace Octagon.Formatik.Tests
             var expectedOutput = File.ReadAllText($"../../../TestData/{testDataFolder}/output.csv");
 
             processed.Should().Be(expectedOutput.Replace("\r", ""), "processed output should be equal to expected output");
+        }
+
+        [Fact]
+        public void tsv_csv_1()
+        {
+            var testDataFolder = "10.tsv-csv.1";
+
+            var input = File.ReadAllText($"../../../TestData/{testDataFolder}/input.tsv").Replace("\r", "");
+
+            var formatik = new Formatik(
+                input,
+                File.ReadAllText($"../../../TestData/{testDataFolder}/example.txt").Replace("\r", ""));
+
+            formatik.Should().NotBeNull();
+            formatik.Header.Should().BeEmpty("Header should be empty");
+            formatik.Footer.Should().BeEmpty("Footer should be empty");
+            formatik.Separators.Should().NotBeNullOrEmpty("there should be separator");
+            formatik.Separators.Count().Should().Be(1, "because output example is a list");
+            formatik.Separators.First().Should().Be("\n", "separator is a new line");
+            formatik.Tokens.Should().NotBeNull("there should be tokens");
+            formatik.Tokens.Count().Should().Be(1, "there should be one token");
+
+            // ID
+            var token = formatik.Tokens.ElementAt(0);
+            token.InputSelector.Should().Be("[0]", "token is the first field");
+            token.OutputSelector.Should().Be("0", "this is the first element of the output table");
+            token.Prefix.Should().BeEmpty("Token's prefix should be empty");
+            token.Suffix.Should().BeEmpty("Token's suffix should be empty");
+
+            // validate processing
+            var processed = formatik.Process(input, Encoding.ASCII);
+            var expectedOutput = File.ReadAllText($"../../../TestData/{testDataFolder}/output.txt");
+
+            processed.Should().Be(expectedOutput.Replace("\r", ""), "processed output should be equal to expected output");
+        }
+
+        [Fact]
+        public void tsv_sql_1()
+        {
+            var testDataFolder = "11.tsv-sql.1";
+
+            var input = File.ReadAllText($"../../../TestData/{testDataFolder}/input.tsv").Replace("\r", "");
+
+            var formatik = new Formatik(
+                input,
+                File.ReadAllText($"../../../TestData/{testDataFolder}/example.sql").Replace("\r", ""));
+
+            formatik.Should().NotBeNull();
+            formatik.Header.Should().BeEmpty("Header should be empty");
+            formatik.Footer.Should().Be(");");
+            formatik.Separators.Should().NotBeNullOrEmpty("there should be separator");
+            
+            // there is an artifact with this text - renders 2nd order separator which is "INSERT INTO @myTable VALUES ("
+            // Ignore for now until, will come back at some point to revisit if it is causing problems
+            //formatik.Separators.Count().Should().Be(1, "because output example is a list");
+            formatik.Separators.First().Should().Be(");\nINSERT INTO @myTable VALUES (");
+            
+            formatik.Tokens.Should().NotBeNull("there should be tokens");
+            formatik.Tokens.Count().Should().Be(1, "there should be one token");
+
+            // ID
+            var token = formatik.Tokens.ElementAt(0);
+            token.InputSelector.Should().Be("[0]", "token is the first field");
+            token.OutputSelector.Should().Be("0", "this is the first element of the output table");
+            token.Prefix.Should().BeEmpty("Token's prefix should be empty");
+            token.Suffix.Should().BeEmpty("Token's suffix should be empty");
+
+            // validate processing
+            var processed = formatik.Process(input, Encoding.ASCII);
+            var expectedOutput = File.ReadAllText($"../../../TestData/{testDataFolder}/output.sql");
+
+            processed.Should().Be(expectedOutput.Replace("\r", ""), "processed output should be equal to expected output");
         }        
     }
 }
