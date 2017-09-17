@@ -1,4 +1,4 @@
-Zip Code);
+INSERT INTO @myTable VALUES (Zip Code);
 INSERT INTO @myTable VALUES (91371);
 INSERT INTO @myTable VALUES (90001);
 INSERT INTO @myTable VALUES (90002);

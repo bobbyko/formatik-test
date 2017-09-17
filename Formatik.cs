@@ -151,10 +151,10 @@ namespace Octagon.Formatik.Tests
 
             formatik.Should().NotBeNull();
             formatik.Header.Should().Be("ID,timestamp,accountId,country\n\"");
-            formatik.Footer.Should().Be("\"\n3 records");
+            formatik.Footer.Should().Be("\n3 records");
             formatik.Separators.Should().NotBeNullOrEmpty("there should be separator");
             formatik.Separators.Count().Should().Be(2, "because output example is a table");
-            formatik.Separators.First().Should().Be("\"\n\"", "separator is a new line with ending and beginning quotes");
+            formatik.Separators.First().Should().Be("\n\"", "separator is a new line with ending and beginning quotes");
             formatik.Separators.Skip(1).First().Should().Be(",", "element is a \",\" comma");
             formatik.Tokens.Should().NotBeNull("there should be tokens");
             formatik.Tokens.Count().Should().Be(4, "there should be 4 token");
@@ -185,7 +185,7 @@ namespace Octagon.Formatik.Tests
             token.InputSelector.Should().Be("seller.countryCode", "token is seller.countryCode");
             token.OutputSelector.Should().Be("3", "this is the third element of the output table");
             token.Prefix.Should().Be("\"", "output values are wrapped in quotes");
-            token.Suffix.Should().BeEmpty();
+            token.Suffix.Should().Be("\"", "output values are wrapped in quotes");
 
             // validate processing
             var processed = formatik.Process(input, Encoding.ASCII);
@@ -205,12 +205,12 @@ namespace Octagon.Formatik.Tests
                 input,
                 File.ReadAllText($"../../../TestData/{testDataFolder}/example.csv").Replace("\r", ""));
 
-            formatik.Should().NotBeNull();
+            formatik.Should().NotBeNull();formatik.Should().NotBeNull();
             formatik.Header.Should().Be("ID,accountId,timestamp,country\n\"");
-            formatik.Footer.Should().Be("\"\n3 records");
+            formatik.Footer.Should().Be("\n3 records");
             formatik.Separators.Should().NotBeNullOrEmpty("there should be separator");
             formatik.Separators.Count().Should().Be(2, "because output example is a table");
-            formatik.Separators.First().Should().Be("\"\n\"", "separator is a new line with ending and beginning quotes");
+            formatik.Separators.First().Should().Be("\n\"", "separator is a new line with ending and beginning quotes");
             formatik.Separators.Skip(1).First().Should().Be(",", "element is a \",\" comma");
             formatik.Tokens.Should().NotBeNull("there should be tokens");
             formatik.Tokens.Count().Should().Be(4, "there should be 4 token");
@@ -241,7 +241,7 @@ namespace Octagon.Formatik.Tests
             token.InputSelector.Should().Be("seller.countryCode", "token is seller.countryCode");
             token.OutputSelector.Should().Be("3", "this is the third element of the output table");
             token.Prefix.Should().Be("\"", "output values are wrapped in quotes");
-            token.Suffix.Should().BeEmpty();
+            token.Suffix.Should().Be("\"", "output values are wrapped in quotes");
 
             // validate processing
             var processed = formatik.Process(input, Encoding.ASCII);
@@ -803,13 +803,11 @@ namespace Octagon.Formatik.Tests
                 File.ReadAllText($"../../../TestData/{testDataFolder}/example.sql").Replace("\r", ""));
 
             formatik.Should().NotBeNull();
-            formatik.Header.Should().BeEmpty("Header should be empty");
+            formatik.Header.Should().Be("INSERT INTO @myTable VALUES (");
             formatik.Footer.Should().Be(");");
             formatik.Separators.Should().NotBeNullOrEmpty("there should be separator");
             
-            // there is an artifact with this text - renders 2nd order separator which is "INSERT INTO @myTable VALUES ("
-            // Ignore for now until, will come back at some point to revisit if it is causing problems
-            //formatik.Separators.Count().Should().Be(1, "because output example is a list");
+            formatik.Separators.Count().Should().Be(1, "because output example is a list");
             formatik.Separators.First().Should().Be(");\nINSERT INTO @myTable VALUES (");
             
             formatik.Tokens.Should().NotBeNull("there should be tokens");
