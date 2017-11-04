@@ -38,7 +38,7 @@ namespace Octagon.Formatik.Tests
             var processed = formatik.Process(input, Encoding.ASCII);
             var expectedOutput = File.ReadAllText($"../../../TestData/{testDataFolder}/output.txt");
 
-            processed.Should().Be(expectedOutput.Replace("\r", ""), "processed output should be equal to expected output");
+            processed.output.Should().Be(expectedOutput.Replace("\r", ""), "processed output should be equal to expected output");
         }
 
         [Fact]
@@ -70,7 +70,7 @@ namespace Octagon.Formatik.Tests
             var processed = formatik.Process(input, Encoding.ASCII);
             var expectedOutput = File.ReadAllText($"../../../TestData/{testDataFolder}/output.txt");
 
-            processed.Should().Be(expectedOutput.Replace("\r", ""), "processed output should be equal to expected output");
+            processed.output.Should().Be(expectedOutput.Replace("\r", ""), "processed output should be equal to expected output");
         }
 
         [Fact]
@@ -135,7 +135,7 @@ namespace Octagon.Formatik.Tests
             var processed = formatik.Process(input, Encoding.ASCII);
             var expectedOutput = File.ReadAllText($"../../../TestData/{testDataFolder}/output.csv");
 
-            processed.Should().Be(expectedOutput.Replace("\r", ""), "processed output should be equal to expected output");
+            processed.output.Should().Be(expectedOutput.Replace("\r", ""), "processed output should be equal to expected output");
         }
 
         [Fact]
@@ -191,7 +191,7 @@ namespace Octagon.Formatik.Tests
             var processed = formatik.Process(input, Encoding.ASCII);
             var expectedOutput = File.ReadAllText($"../../../TestData/{testDataFolder}/output.csv");
 
-            processed.Should().Be(expectedOutput.Replace("\r", ""), "processed output should be equal to expected output");
+            processed.output.Should().Be(expectedOutput.Replace("\r", ""), "processed output should be equal to expected output");
         }
 
         [Fact]
@@ -247,7 +247,7 @@ namespace Octagon.Formatik.Tests
             var processed = formatik.Process(input, Encoding.ASCII);
             var expectedOutput = File.ReadAllText($"../../../TestData/{testDataFolder}/output.csv");
 
-            processed.Should().Be(expectedOutput.Replace("\r", ""), "processed output should be equal to expected output");
+            processed.output.Should().Be(expectedOutput.Replace("\r", ""), "processed output should be equal to expected output");
         }
 
         [Fact]
@@ -303,7 +303,7 @@ namespace Octagon.Formatik.Tests
             var processed = formatik.Process(input, Encoding.ASCII);
             var expectedOutput = File.ReadAllText($"../../../TestData/{testDataFolder}/output.csv");
 
-            processed.Should().Be(expectedOutput.Replace("\r", ""), "processed output should be equal to expected output");
+            processed.output.Should().Be(expectedOutput.Replace("\r", ""), "processed output should be equal to expected output");
         }
 
         [Fact]
@@ -359,7 +359,7 @@ namespace Octagon.Formatik.Tests
             var processed = formatik.Process(input, Encoding.ASCII);
             var expectedOutput = File.ReadAllText($"../../../TestData/{testDataFolder}/output.csv");
 
-            processed.Should().Be(expectedOutput.Replace("\r", ""), "processed output should be equal to expected output");
+            processed.output.Should().Be(expectedOutput.Replace("\r", ""), "processed output should be equal to expected output");
         }
 
         [Fact]
@@ -415,7 +415,7 @@ namespace Octagon.Formatik.Tests
             var processed = formatik.Process(input, Encoding.ASCII);
             var expectedOutput = File.ReadAllText($"../../../TestData/{testDataFolder}/output.csv");
 
-            processed.Should().Be(expectedOutput.Replace("\r", ""), "processed output should be equal to expected output");
+            processed.output.Should().Be(expectedOutput.Replace("\r", ""), "processed output should be equal to expected output");
         }
 
         [Fact]
@@ -457,7 +457,7 @@ namespace Octagon.Formatik.Tests
             var processed = formatik.Process(input, Encoding.ASCII);
             var expectedOutput = File.ReadAllText($"../../../TestData/{testDataFolder}/output.csv");
 
-            processed.Should().Be(expectedOutput.Replace("\r", ""), "processed output should be equal to expected output");
+            processed.output.Should().Be(expectedOutput.Replace("\r", ""), "processed output should be equal to expected output");
         }
 
         [Fact]
@@ -513,7 +513,7 @@ namespace Octagon.Formatik.Tests
             var processed = formatik.Process(input, Encoding.ASCII);
             var expectedOutput = File.ReadAllText($"../../../TestData/{testDataFolder}/output.json");
 
-            processed.Should().Be(expectedOutput.Replace("\r", ""), "processed output should be equal to expected output");
+            processed.output.Should().Be(expectedOutput.Replace("\r", ""), "processed output should be equal to expected output");
         }
 
         [Fact]
@@ -569,7 +569,7 @@ namespace Octagon.Formatik.Tests
             var processed = formatik.Process(input, Encoding.ASCII);
             var expectedOutput = File.ReadAllText($"../../../TestData/{testDataFolder}/output.sql");
 
-            processed.Should().Be(expectedOutput.Replace("\r", ""), "processed output should be equal to expected output");
+            processed.output.Should().Be(expectedOutput.Replace("\r", ""), "processed output should be equal to expected output");
         }
 
         [Fact]
@@ -602,7 +602,7 @@ namespace Octagon.Formatik.Tests
             var processed = formatik.Process(input, Encoding.ASCII);
             var expectedOutput = File.ReadAllText($"../../../TestData/{testDataFolder}/output.txt");
 
-            processed.Should().Be(expectedOutput.Replace("\r", ""), "processed output should be equal to expected output");
+            processed.output.Should().Be(expectedOutput.Replace("\r", ""), "processed output should be equal to expected output");
         }
 
         [Fact]
@@ -635,7 +635,7 @@ namespace Octagon.Formatik.Tests
             var processed = formatik.Process(input, Encoding.ASCII);
             var expectedOutput = File.ReadAllText($"../../../TestData/{testDataFolder}/output.txt");
 
-            processed.Should().Be(expectedOutput.Replace("\r", ""), "processed output should be equal to expected output");
+            processed.output.Should().Be(expectedOutput.Replace("\r", ""), "processed output should be equal to expected output");
         }
 
         [Fact]
@@ -678,7 +678,7 @@ namespace Octagon.Formatik.Tests
             var processed = formatik.Process(input, Encoding.ASCII);
             var expectedOutput = File.ReadAllText($"../../../TestData/{testDataFolder}/output.csv");
 
-            processed.Should().Be(expectedOutput.Replace("\r", ""), "processed output should be equal to expected output");
+            processed.output.Should().Be(expectedOutput.Replace("\r", ""), "processed output should be equal to expected output");
         }
 
         [Fact]
@@ -712,7 +712,7 @@ namespace Octagon.Formatik.Tests
             var processed = formatik.Process(input, Encoding.ASCII);
             var expectedOutput = File.ReadAllText($"../../../TestData/{testDataFolder}/output.txt");
 
-            processed.Should().Be(expectedOutput.Replace("\r", ""), "processed output should be equal to expected output");
+            processed.output.Should().Be(expectedOutput.Replace("\r", ""), "processed output should be equal to expected output");
         }
 
         [Fact]
@@ -754,7 +754,7 @@ namespace Octagon.Formatik.Tests
             var processed = formatik.Process(input, Encoding.ASCII);
             var expectedOutput = File.ReadAllText($"../../../TestData/{testDataFolder}/output.csv");
 
-            processed.Should().Be(expectedOutput.Replace("\r", ""), "processed output should be equal to expected output");
+            processed.output.Should().Be(expectedOutput.Replace("\r", ""), "processed output should be equal to expected output");
         }
 
         [Fact]
@@ -788,7 +788,7 @@ namespace Octagon.Formatik.Tests
             var processed = formatik.Process(input, Encoding.ASCII);
             var expectedOutput = File.ReadAllText($"../../../TestData/{testDataFolder}/output.txt");
 
-            processed.Should().Be(expectedOutput.Replace("\r", ""), "processed output should be equal to expected output");
+            processed.output.Should().Be(expectedOutput.Replace("\r", ""), "processed output should be equal to expected output");
         }
 
         [Fact]
@@ -822,7 +822,7 @@ namespace Octagon.Formatik.Tests
             var processed = formatik.Process(input, Encoding.ASCII);
             var expectedOutput = File.ReadAllText($"../../../TestData/{testDataFolder}/output.txt");
 
-            processed.Should().Be(expectedOutput.Replace("\r", ""), "processed output should be equal to expected output");
+            processed.output.Should().Be(expectedOutput.Replace("\r", ""), "processed output should be equal to expected output");
         }        
 
         [Fact]
@@ -858,7 +858,7 @@ namespace Octagon.Formatik.Tests
             var processed = formatik.Process(input, Encoding.ASCII);
             var expectedOutput = File.ReadAllText($"../../../TestData/{testDataFolder}/output.sql");
 
-            processed.Should().Be(expectedOutput.Replace("\r", ""), "processed output should be equal to expected output");
+            processed.output.Should().Be(expectedOutput.Replace("\r", ""), "processed output should be equal to expected output");
         }        
     }
 }
